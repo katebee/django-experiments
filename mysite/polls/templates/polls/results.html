@@ -1,4 +1,9 @@
 
+{% load staticfiles %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+
 <h1>{{ question.question_text }}</h1>
 
 <ul>
